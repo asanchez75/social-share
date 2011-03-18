@@ -40,8 +40,8 @@ function social_share_nodeapi(&$node, $op, $teaser, $page) {
             if ($enabled) {
               $share_box .= theme('social_share', $site, $node);
             }
-            $share_box .= '</div>';
           }
+          $share_box .= '</div>';
 
           // put the shareBox into the node before it's rendered
           $node->content['social_share'] = array(
