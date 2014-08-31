@@ -4,3 +4,5 @@ core = 7.x
 configure = admin/config/content/social-share
 
 dependencies[] = token
+scripts[] = js/social_share_popup.js
+
